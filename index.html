@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script defer src="js-form.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+<body class="main">
+    <div class="m-auto shadow-sm bg-white rounded-3 col-lg-5 text-center p-5" style="margin-top: 10rem;">
+        <p class="header"><b>Login</b></p>
+        <form id="login-form" >
+            <div class="login-error-msg-holder">
+                <p id="login-error-msg">Invalid username,<br> and/or password</span></p>
+              </div>
+            <div class="mar-bottom">
+                <label class="mar-bottom">
+                    Email
+                    <input type="email" name="username" class="form-control" placeholder="abc@example.com">
+                </label>
+            </div>
+            <div class="mar-bottom">
+                <label class="mar-bottom">
+                    Password
+                    <input type="password" name="password" class="form-control" placeholder="Enter password">
+                </label>
+            </div>
+            <div class="login-succ-msg-holder">
+                <p id="login-succ-msg">Login <br>Successful</span></p>
+              </div>
+            <button type="button" class="rounded-3 btn btn-warning" id="login-form-submit">Sign In</button>
+        </form>
+    </div>
+</body>
